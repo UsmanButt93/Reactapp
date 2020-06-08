@@ -27,7 +27,7 @@ jobs:
         node-version: 12
         
     - name: install Surge
-      run: npm install -g surge
+      run: npm install - -g surge
       
       # Deploy Surge
     - name: Run Surge
