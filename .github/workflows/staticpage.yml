@@ -31,4 +31,4 @@ jobs:
       
       # Deploy Surge
     - name: Run Surge
-      run: surge ./ staticpage24.surge.sh - - token ${{ secrets.STATIC }}
+      run: surge ./ staticpage24.surge.sh - - token ${{ secrets.TOKEN }}
