@@ -3,8 +3,6 @@ name: StaticPage21
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   build:
@@ -21,4 +19,4 @@ jobs:
     - name: install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ staticpage21.surge.sh - —token ${{secrets.STATIC}}
+      run: surge ./ staticpage212.surge.sh - —token ${{ secrets.STATIC }}
