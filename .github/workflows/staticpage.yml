@@ -27,6 +27,8 @@ jobs:
         node-version: 12
         
     - name: install Surge
-      run: npm install -g surge
+      run: npx install -g surge
+      
+      # Deploy Surge
     - name: Run Surge
-      run: surge ./ staticpage23.surge.sh - —token ${{ secrets.STATIC }}
+      run: surge ./ staticpage24.surge.sh - - token ${{ secrets.STATIC }}
