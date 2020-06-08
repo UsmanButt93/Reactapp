@@ -29,4 +29,4 @@ jobs:
     - name: install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ staticpage212.surge.sh - —token ${{ secrets.STATIC }}
+      run: surge ./ staticpage23.surge.sh - —token ${{ secrets.STATIC }}
